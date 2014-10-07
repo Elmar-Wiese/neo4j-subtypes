@@ -1,0 +1,7 @@
+= Modelling Sub Types with Neo4j
+
+A commonly asked question is how to model sub types in a graph so this project shall aim to answer that question!
+
+== The Data
+
+Our data set is a link:http://portal.louisvilleky.gov/dataset/animaltag-data?page=20[list of animals processed by Animal Services] in Louiseville, Kentucky. 
