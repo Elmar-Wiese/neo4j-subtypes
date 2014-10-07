@@ -8,12 +8,14 @@ Our data set is a link:http://portal.louisvilleky.gov/dataset/animaltag-data?pag
 
 === Importing into Neo4j
 
-First we need to unpack the animal data set which should leave us with a CSV file in the data directory:
+First we need to unpack the animal data set:
 
 [source, bash]
 ----
 tar -xzf data/Animal_Tag_DATA.tgz -C data
 ----
+
+which should leave us with a CSV file in the data directory:
 
 [source, bash]
 ----
