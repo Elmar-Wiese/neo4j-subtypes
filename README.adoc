@@ -4,4 +4,24 @@ A commonly asked question is how to model sub types in a graph so this project s
 
 == The Data
 
-Our data set is a link:http://portal.louisvilleky.gov/dataset/animaltag-data?page=20[list of animals processed by Animal Services] in Louiseville, Kentucky. 
+Our data set is a link:http://portal.louisvilleky.gov/dataset/animaltag-data?page=20[list of animals processed by Animal Services] in Louiseville, Kentucky.
+
+=== Importing into Neo4j
+
+First we need to unpack the animal data set which should leave us with a CSV file in the data directory:
+
+[source, bash]
+----
+tar -xzf data/Animal_Tag_DATA.tgz -C data
+----
+
+[source, bash]
+----
+ls -alh data/
+
+total 507696
+drwxr-xr-x   4 markneedham  staff   136B  7 Oct 18:00 .
+drwxr-xr-x  10 markneedham  staff   340B  7 Oct 18:00 ..
+-rw-r-----@  1 markneedham  staff   215M  2 Oct 17:06 Animal_Tag_DATA.csv
+-rw-r--r--   1 markneedham  staff    33M  7 Oct 17:41 Animal_Tag_DATA.tgz
+----
