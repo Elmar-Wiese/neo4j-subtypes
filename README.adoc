@@ -27,3 +27,7 @@ drwxr-xr-x  10 markneedham  staff   340B  7 Oct 18:00 ..
 -rw-r-----@  1 markneedham  staff   215M  2 Oct 17:06 Animal_Tag_DATA.csv
 -rw-r--r--   1 markneedham  staff    33M  7 Oct 17:41 Animal_Tag_DATA.tgz
 ----
+
+== Interesting links
+
+* Pull in more data on different breeds - http://www.thekennelclub.org.uk/activities/dog-showing/breed-standards/
