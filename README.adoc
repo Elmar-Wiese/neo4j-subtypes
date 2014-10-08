@@ -31,3 +31,4 @@ drwxr-xr-x  10 markneedham  staff   340B  7 Oct 18:00 ..
 == Interesting links
 
 * Pull in more data on different breeds - http://www.thekennelclub.org.uk/activities/dog-showing/breed-standards/
+* Hierarchies / Sub Types - http://www.cs.utexas.edu/~cannata/dbms/Class%20Notes/02%20Categories%20in%20RDBMs.pdf
