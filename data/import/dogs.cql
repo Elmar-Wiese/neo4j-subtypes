@@ -1,4 +1,4 @@
-LOAD CSV WITH HEADERS FROM "C:\Users\Elmar\Documents\Github Desktop Projecten Plaats\neo4j-subtypes\data\dogs.csv" AS line
+LOAD CSV WITH HEADERS FROM "file:///C:/Users/Elmar/Documents/Github%20Desktop%20Projecten%20Plaats/neo4j-subtypes/data/import/dogs.cql" AS line
 MERGE (animalType:AnimalType {name: "Dog"})
 MERGE (breedGroup:BreedGroup {name: line.BreedGroup})
 MERGE (breed:Breed {name: line.PrimaryBreed})
